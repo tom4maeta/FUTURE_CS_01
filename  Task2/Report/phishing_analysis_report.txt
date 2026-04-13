@@ -1,0 +1,33 @@
+=== Phishing Email Cybersecurity Analysis Report ===
+
+Total Emails Analyzed: 524846
+Legitimate Emails: 517897
+Actual Phishing Emails: 6949
+Emails Flagged by Rule-based Detection: 476150
+
+--- Feature Analysis (Average Values) ---
+        num_words  num_unique_words  num_stopwords  num_links  num_unique_domains  num_email_addresses  num_spelling_errors  num_urgent_keywords
+label                                                                                                                                           
+0      276.631566        122.941205      80.103611   0.901921            0.348285             2.140906            24.768971             0.244108
+1      246.150957        128.300907      75.711901   0.423658            0.309109             0.176428            19.161750             0.334149
+
+--- Key Observations ---
+1. Phishing emails tend to have more links and urgent keywords.
+2. Phishing emails have higher spelling errors.
+3. Legitimate emails have fewer links and minimal urgency indicators.
+4. Rule-based detection flags emails based on links, urgency, and spelling errors.
+
+--- Visualizations ---
+Plots saved as PNG files:
+1. label_distribution.png
+2. num_links_boxplot.png
+3. urgent_keywords_boxplot.png
+4. spelling_errors_boxplot.png
+5. correlation_heatmap.png
+6. confusion_matrix.png
+
+--- Security Implications ---
+Flagged phishing emails should be reviewed by IT Security teams.
+Detection techniques can be integrated into email filters or SIEM systems.
+
+Report Has Been Generated Successfully!

@@ -1,0 +1,4 @@
+# Nmap 7.98 scan initiated Wed Apr  1 16:37:31 2026 as: /usr/lib/nmap/nmap --privileged -sS -sV -A --script vuln -oA dvwa_scan 172.17.0.2
+Host: 172.17.0.2 ()	Status: Up
+Host: 172.17.0.2 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.25 ((Debian))/	Ignored State: closed (999)	OS: Linux 4.15 - 5.19	Seq Index: 263	IP ID Seq: All zeros
+# Nmap done at Wed Apr  1 16:38:12 2026 -- 1 IP address (1 host up) scanned in 40.63 seconds
